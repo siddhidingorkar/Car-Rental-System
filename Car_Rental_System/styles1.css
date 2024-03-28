@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+    padding:0px;
+ }
+ 
+ .nav{
+     font-family: Verdana, sans-serif;
+     margin:0px;
+     padding:0px;
+     display:flex;
+     justify-content: space-between;
+     background-color:black;
+     position:sticky;
+     height:70px;
+     box-shadow: 10px 10px 10px gray;
+     margin-bottom: 14px;
+ }
+ 
+ .navbar{
+     display:flex;
+     justify-content:center;
+     align-items: center;
+     position: relative;
+     right: 50px;
+ 
+ }
+ 
+ .br{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     position:relative;
+     font-size: 1.2rem;
+ 
+ }
+ .br p{
+  padding: 8px 16px;
+  color: white;
+
+ }
+ #p1{
+     margin-left:15px;
+     font-weight: bold;
+     padding-right: 1px;
+ }
+ 
+ .navbar a{
+     padding:8px 16px;
+     font-size: 22px;
+     text-decoration: none;
+     color:white;
+ }
+
+ .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: larger;
+    color: white;
+ }
+
+.image img{
+    width: 100%;
+    height: 400px;
+}
+
+#fleet{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    bottom: 343px;
+}
+
+.about{
+    margin-left: 30px;
+    padding: 30px 0px;
+}
+
+.para{
+    
+    margin: 0px 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.types{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 45px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 15px;
+
+}
+.contact{
+    margin-left: 15px;
+}
+
+.contact img{
+    position: relative;
+    height:220px;
+    width: 345px;
+    filter: saturate(0.4);
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact h3{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.des{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.info{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+
+.contact button{
+    padding: 10px 148px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.contact button:hover{
+    cursor: pointer;
+    background-color: rgba(235, 231, 222, 0.903);
+}
+
